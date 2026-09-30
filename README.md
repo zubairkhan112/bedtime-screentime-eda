@@ -22,22 +22,20 @@ I used groupby analysis on the target column and checked each behavioral feature
 **Phone use before sleeping**
 People with severe sleep debt averaged 124 minutes on their phone before bed. The optimal recovery group averaged 34 minutes. Across all four categories the pattern is completely consistent. More phone time, worse sleep outcome.
 
+![Phone use by sleep debt category](charts/phone_minutes_by_category.png)
+
 **Time to fall asleep**
 The severe group took 73 minutes on average to fall asleep after getting into bed. The optimal group took 29 minutes. Even moderate debt pushed this up to 42 minutes.
+
+![Sleep latency by category](charts/sleep_latency_by_category.png)
 
 **Next day fatigue**
 This was the most striking result. Severe sleep debt group scored 9.6 out of 10 on next-day fatigue. Optimal recovery group scored 1.1. The gap between just these two numbers tells most of the story.
 
+![Fatigue by category](charts/fatigue_by_category.png)
+
 **Gender**
 Checked this separately. Phone use and fatigue scores were nearly identical across male, female, and non-binary groups. No chart made for this.
-
-## Charts
-
-All three charts are saved in the charts/ folder.
-
-- phone_minutes_by_category.png
-- sleep_latency_by_category.png
-- fatigue_by_category.png
 
 ## Tools
 
